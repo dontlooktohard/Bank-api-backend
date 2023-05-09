@@ -1,0 +1,36 @@
+# Dependencies
+/node_modules
+
+# Build/Production
+/client/build
+
+# Environment variables
+*.env*
+!.env.example
+
+# Logs
+/logs
+*.log
+
+# Generated / Auto-generated files
+/dist
+/dist-ssr
+.eslintcache
+desktop.ini
+
+# Configuration
+.prettierrc
+
+# Editor specific
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Temporary files
+*.sw?
+*.lock
+*.cache
+.DS_Store
