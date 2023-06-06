@@ -8,6 +8,7 @@ import Account from "../models/Account.js";
 // @access  Public
 export const getUsers = asyncHandler(async (req, res, next) => {
     const users = await User.find();
+    console.log(users);
     res.status(200).json({ data: users });
 });
 
